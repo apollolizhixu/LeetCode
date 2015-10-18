@@ -1,5 +1,7 @@
 public class Solution{
 	public boolean hasPathSum(TreeNode root, int sum){
+		//Recursive DFS;
+		//Time: O(n), Space: O(logn)
 	    if (root == null){
 		    return false;
 		}
