@@ -1,5 +1,6 @@
 public class Solution{
 	public int uniquePathsWithObstacles(int[][] obstacleGrid){
+		//Time: O(mn), Space: O(mn);
 		if (obstacleGrid == null || obstacleGrid.length == 0){
 			return 0;
 		}
